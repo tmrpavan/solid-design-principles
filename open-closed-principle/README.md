@@ -32,5 +32,14 @@ This implementation allows the calculateVolume() function to be called based on 
 And we can easily add new shapes by adding subclasses to the shape class and implementing the volume calculation of the 
 respective subclasses.
 
+    @AllArgsConstructor
+    public class VolumeCalculator {
+    private Shape shape;
+    
+        public long calculateVolume(){
+            return shape.calculate();
+        }
+    }
+
 
 
