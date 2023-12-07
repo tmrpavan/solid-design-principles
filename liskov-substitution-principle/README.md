@@ -4,7 +4,7 @@ as the supper class so that i can be interchangeable without breaking any functi
 
 ### Vehicle Class
 
-![bad.png](liskov-substitution-principle/src/main/resources/bad.png)
+![bad.png](src/main/resources/bad.png)
 
 Above example the vehicle class inherited by two subclasses one is car and other one is Bicycle. In this case the 
 Bicycle is not the same as the Vehicle if you replace vehicle class with Bicycle subclass the code will break. Because 
@@ -18,5 +18,5 @@ supper class.
 
 Same goes for Motorized class also.
 
-![good.png](liskov-substitution-principle/src/main/resources/good.png)
+![good.png](src/main/resources/good.png)
 
