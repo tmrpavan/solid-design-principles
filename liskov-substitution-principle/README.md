@@ -13,10 +13,10 @@ Bicycle does not have an engine.
 To overcome the issue we can add an additional layer. Which have two abstract classes one is having behaviour of 
 Motorized and other have the behaviours of Manual.
 
+![good.png](src/main/resources/good.png)
+
 We can have multiple subclasses of Manual abstract class. All manual type objects are interchangeable with this 
 supper class.
 
 Same goes for Motorized class also.
-
-![good.png](src/main/resources/good.png)
 
